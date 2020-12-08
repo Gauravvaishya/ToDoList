@@ -1,0 +1,25 @@
+
+        body{
+            background-color:lightblue;
+            display: flex;
+	        justify-content: center;
+	        align-items: center;
+	        min-height: 100vh;
+	        margin: 0;
+        }
+        .bord{
+            border: 2px solid green;
+            text-align: center;
+            width: 700px;
+            margin: 0 auto ;
+             background-color: aliceblue;
+            padding: 10px 20px;
+        }
+        .line{
+            border-bottom:2px solid black;
+        }
+        
+        
+        
+        
+    
