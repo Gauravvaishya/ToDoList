@@ -19,15 +19,14 @@
                 var c = $(this).parent().find('.newer').text();
                 $(this).parent().find('.inp2').val(c);
 
-
+                $(".sv").on('click',function(){
+                var s = $(this).siblings(".inp2").val().trim();
+                $(this).siblings(".newer").html(s);
+                });
                
             });
              
-             $(".sv").on('click',function(){
-                var s = $(this).siblings(".inp2").val().trim();
-                $(this).siblings(".newer").html(s);
-                          
-            });
+             
 
             $("#one").on('click','#myCheck',function(){
                 $(this).parent().appendTo('#two');
